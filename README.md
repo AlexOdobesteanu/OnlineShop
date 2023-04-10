@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Online Shop (university project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed using MERN Stack, for an university project in 2021.
 
 ## Available Scripts
 
