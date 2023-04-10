@@ -1,0 +1,114 @@
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: montserrat,sans-serif;
+} */
+
+input,button
+{
+  appearance: none;
+  background:none;
+  border:none;
+  outline:none;
+}
+
+.LoginForm
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  font-family: montserrat,sans-serif;
+}
+
+form
+{
+  display: block;
+  position: relative;
+}
+
+form::after{
+  content:'';
+  display:inline-block;
+  position:absolute;
+  top:-5px;
+  left:-5px;
+  right:-5px;
+  bottom:-5px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom right,lightskyblue,white);
+  align-content: center;
+
+}
+
+form .form_in
+{
+  position: relative;
+  display: inline-block;
+  /* background-color: lightskyblue; */
+  padding:20px;
+  z-index:2;
+  width:fit-content;
+  align-content: center;
+  text-align: center;
+}
+
+form .form_in h2
+{
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+form .form_in .formgroup
+{
+  align-items: center;
+  display: block;
+  width: 400px;
+  margin-bottom: 15px ;
+}
+
+.form_in .formgroup label
+{
+  display: block;
+  font-size:12px;
+  margin-bottom: 5px;
+  transition:0.4s;
+}
+
+
+
+form .form_in .formgroup input{
+  display:block;
+  width: 100%;
+  padding:10px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  align-content: center;
+  transition:0.4s;
+}
+
+form .form_in .formgroup input:focus 
+{
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+}
+
+form .form_in input[type="submit"]
+{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right,lightgrey,white);
+  background-size: 20%;
+  background-position: 20%;
+  transition: 0.4s;
+  font-weight: 700;
+  cursor:pointer;
+}
+
+form .form_in input[type="submit"]:hover
+{
+  background-position: 100% 0%;
+}

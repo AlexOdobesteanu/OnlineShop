@@ -1,0 +1,31 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  #magazine {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #magazine td, #magazine th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #magazine tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #magazine tr:hover {background-color: #ddd;}
+  
+  #magazine th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:lightskyblue;
+    color: black;
+  }
